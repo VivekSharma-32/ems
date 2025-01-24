@@ -12,8 +12,7 @@ const NewTask = ({ data }) => {
       <h2 className="mt-5 text-2xl font-semibold">{data.taskTitle}</h2>
       <p className="text-sm mt-2">{data.taskDescription}</p>
       <div className="flex justify-between mt-4">
-        <button className="bg-green-500 py-1 px-2 text-sm">Completed</button>
-        <button className="bg-red-500 py-1 px-2 text-sm">Mark as Failed</button>
+        <button className="bg-green-500 py-1 px-2 text-sm">Accept</button>
       </div>
     </div>
   );
